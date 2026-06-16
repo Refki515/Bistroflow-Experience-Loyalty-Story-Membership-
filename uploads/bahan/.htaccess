@@ -1,0 +1,5 @@
+# Direktori upload BistroFlow ERP
+# Akses file langsung diperbolehkan, eksekusi PHP dilarang
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
