@@ -114,26 +114,3 @@ bistroflow/
 ```
 
 ---
-
-## Skema Database (10 Tabel — Modul 9)
-
-`users`, `credits`, `konfigurasi_credits`, `transaksi_pos`, `konten`, `bahan`,
-`reservasi`, `workshops`, `pendaftaran_workshop`, `notifikasi`.
-
-Detail atribut, tipe data, ENUM, dan validasi mengikuti **Modul 8 (Kamus Data)**
-dan **Modul 9 (Desain Database Relasional)**.
-
----
-
-## Konsistensi dengan Modul 1–12
-
-- **Modul 3 (Arsitektur)**: PHP + MySQL, session + bcrypt, file di direktori server.
-- **Modul 5 (Desain Input)**: 14 form diimplementasikan sebagai form HTML dengan
-  validasi dua lapisan (HTML5 + PHP server).
-- **Modul 6 (DFD/Site Map)**: struktur folder & routing mengikuti site map per peran.
-- **Modul 7 (BPMN)**: alur reservasi, review konten, dan transaksi POS
-  diimplementasikan sebagai transaksi MySQL atomik.
-- **Modul 8/9 (Kamus Data & Database)**: seluruh nama tabel, kolom, ENUM, dan
-  tipe data sama persis dengan skema PDM.
-- **Modul 11 (UI/UX)**: tema dark gold/obsidian, badge tier, modal konfirmasi,
-  toast notification, validasi real-time, empty state — sesuai mockup Figma.
